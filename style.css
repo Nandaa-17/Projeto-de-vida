@@ -89,6 +89,14 @@ body {
   border-bottom: 4px solid var(--verde);
 }
 
+.aba-conteudo.ativo {
+  display: block;
+}
+
+.aba-conteudo {
+  display: none;
+}
+
 .aba-conteudo-titulo-principal {
   font-size: 28px;
   text-align: center;
@@ -97,4 +105,5 @@ body {
   text-align: center;
   color: var(--verde);
   text-transform: uppercase;
+}
 }
